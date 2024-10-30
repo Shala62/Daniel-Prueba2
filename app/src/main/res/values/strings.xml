@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Daniel-Prueba2</string>
+
+    <string name="txtBienvenida">Bienvenido/a</string>
+    <string name="txtPregunta">¿Cuanto sabes acerca de la Biblia?</string>
+    <string name="etNombre">Ingresa tu Nombre</string>
+    <string name="btnIngresar">Ingresar</string>
+
+    <string name="txtNombre">Bienvenido/a </string>
+    <string name="txtPregunta1">1. ¿Quién construyó el Arca?</string>
+    <string name="txtNoemi">Noemí</string>
+    <string name="txtNoe">Noe</string>
+
+    <string name="txtPregunta2">2. ¿Qué animal estuvo con Daniel en \nel foso?</string>
+    <string name="txtLeon">El Leon</string>
+    <string name="txtTigre">El Tigre</string>
+
+    <string name="txtPregunta3">3. ¿Quién fue el primer Rey de Israel?</string>
+    <string name="txtDavid">David</string>
+    <string name="txtSaul">Saúl</string>
+    <string name="txtSalo">Salomón</string>
+
+    <string name="txtPregunta4">4. ¿Quién fue tragado por un pez?</string>
+    <string name="txtJonas">Jonás</string>
+    <string name="txtLot">Lot</string>
+    <string name="txtJona">Jonattan</string>
+
+    <string name="txtPregunta5">5. ¿Qué apóstol vio el Apocalipsis?</string>
+    <string name="txtPedro">Pedro</string>
+    <string name="txtJuan">Juan</string>
+    <string name="txtSanti">Santiago</string>
+
+    <string name="txtPregunta6">6. ¿Quién es Jesús?</string>
+    <string name="txtProfeta">Un Profeta</string>
+    <string name="txtSon">El Hijo del Dios viviente</string>
+    <string name="txtMaster">Un Maestro</string>
+
+    <string name="txtRespuestas">Resultados: </string>
+    <string name="etComentario">Ingrese una Sugerencia</string>
+</resources>

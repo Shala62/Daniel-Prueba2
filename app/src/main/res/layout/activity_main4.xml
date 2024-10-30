@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/sea"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:id="@+id/imgGuardar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="49dp"
+        android:onClick="save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgSalir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etComentario"
+        app:srcCompat="@drawable/save" />
+
+    <ImageView
+        android:id="@+id/imgSalir"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgGuardar"
+        app:layout_constraintTop_toBottomOf="@+id/etComentario"
+        app:srcCompat="@drawable/exit" />
+
+    <TextView
+        android:id="@+id/txtRespuestas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginBottom="125dp"
+        android:text="@string/txtRespuestas"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/etComentario"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etComentario"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="246dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="56dp"
+        android:background="#82C5FF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/etComentario"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/imgSalir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="54dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="3dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logosanto" />
+</androidx.constraintlayout.widget.ConstraintLayout>
